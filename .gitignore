@@ -1,0 +1,23 @@
+# editors
+.codio/
+.idea/
+.vcode/
+
+# build
+.build/
+
+# compiled output
+dist/
+
+# dependencies
+node_modules/
+
+# env config file
+.env
+
+# log files
+*.log
+
+# mongodb data files - used for testing
+test/.mongodb/data/*
+!test/.mongodb/data/.gitkeep

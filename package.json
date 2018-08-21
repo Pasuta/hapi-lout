@@ -1,0 +1,33 @@
+{
+  "name": "hapi-api-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^22.4.3",
+    "hapi": "^17.5.3",
+    "inert": "^5.1.0",
+    "joi": "^13.1.2",
+    "lout": "^11.0.0",
+    "vision": "^5.3.2"
+  },
+  "jest": {
+    "testURL": "http://localhost",
+    "collectCoverage": true,
+    "coverageDirectory": ".build/coverage",
+    "coveragePathIgnorePatterns": [
+      "/node_modules/",
+      "/test/"
+    ],
+    "modulePaths": [
+      "<rootDir>/src/"
+    ],
+    "silent": true
+  }
+}
